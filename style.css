@@ -313,11 +313,14 @@ ul#navigation li:hover {
 }
 
 .pictures{
-	
+	background-color:#ffef6c;
 }
+.item{
+	border: #2e1a12 solid 20px;
+    -webkit-border-image: url(wood.png) 200 stretch;
+    -moz-border-image: url(wood.png) 200 stretch;
+    border-image: url(wood.png) 200 stretch;
 
-.pictures {
-	background-color: #ffef6c;
 }
 
 .pictures .content-box{
