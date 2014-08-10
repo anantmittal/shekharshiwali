@@ -294,7 +294,7 @@ ul#navigation li:hover {
 
 
 .home {
-	background-color: #cb026c;
+	background-color: #dd3232;
 }
 
 .home .content-box{
@@ -838,7 +838,7 @@ ul#navigation li:hover {
 
 
 .rsvp {
-	background-color: #dd3232;
+	background-color: #cb026c;
 }
 
 .rsvp .content-box{
@@ -1011,7 +1011,7 @@ ul#navigation li:hover {
 .gifts {
 	height:100%;
 	position: relative;
-	background-color: #d34295;
+	background-color: #006a00;
 }
 
 .gifts .content-box{
