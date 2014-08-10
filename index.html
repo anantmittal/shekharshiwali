@@ -19,14 +19,14 @@ Shiwali + Shekhar | We're Getting Married!
 <meta property="og:type" content="website"/>
 
 <!-- Links -->
-
-<link rel="stylesheet" href="style.css" media="screen,projection" type="text/css" />
 <link rel="stylesheet" type="text/css" href="jquery.fancybox-1.3.4.css" media="screen" />
+<link rel="stylesheet" href="style.css" media="screen,projection" type="text/css" />
+<link rel="stylesheet" href="css/bootstrap.css" media="screen,projection" type="text/css" />
+
 <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css' />
 <link rel="icon" href="favicon.png" type="image/x-icon" />
 <link rel="shortcut icon" href="favicon.png" type="image/x-icon" /> 
 <link rel="image_src" href="images/fb-icon.jpg" />
-<link rel="stylesheet" href="jquery.maximage.min.css" type="text/css" media="screen" title="CSS" charset="utf-8" />
 
 <!-- Java Script -->
 
@@ -34,9 +34,7 @@ Shiwali + Shekhar | We're Getting Married!
 <script type="text/javascript" src="js/jquery.mousewheel-3.0.4.pack.js"></script>
 <script type="text/javascript" src="js/jquery.fancybox-1.3.4.pack.js"></script>
 <script type="text/javascript" src="js/jquery.scrollTo-min.js"></script>
-<script src="js/jquery.cycle.all.js" type="text/javascript"></script>
-<script src="js/jquery.easing.1.3.js" type="text/javascript"></script>
-<script src="js/jquery.maximage.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
 
 
 
@@ -125,11 +123,6 @@ $(document).ready(function() {
 		});
 });
 
-$(function(){
-	// Trigger maximage
-	jQuery('#maximage').maximage();
-});
-
 </script>
 </head>
 
@@ -164,10 +157,50 @@ $(function(){
 
 <!-- Pictures Frame -->
 
-	<div class="pictures slide" id="maximage">
-		
-		<img src="images/gallery/ss-02.jpg"  />
-		<img src="images/gallery/ss-05.jpg" />
+	<div class="pictures slide"  >
+		<div class="col-md-12 col-lg-12">			<div class="col-md-1 col-lg-1">
+				
+			</div>
+			<div class="col-md-10 col-lg-10">
+				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+			
+				 <!-- Indicators -->
+				  <ol class="carousel-indicators">
+				    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+				    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+				    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+				  </ol>
+							<!-- Wrapper for slides -->
+			  <div class="carousel-inner">
+			    <div class="item active" >
+			      <img src="images/gallery/1.JPG" style="width:100%;height:660px;">
+			    </div>
+			    
+			    <div class="item">
+			      <img src="images/gallery/6.JPG" style="width:100%;height:660px;">
+			    </div>
+			    <div class="item">
+			      <img src="images/gallery/7.JPG" style="width:100%;height:660px;">
+			    </div>
+			    <div class="item">
+			      <img src="images/gallery/8.JPG" style="width:100%;height:660px;">
+			    </div>
+			  </div>
+			
+			  <!-- Controls -->
+			  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+			    <span class="glyphicon glyphicon-chevron-left"></span>
+			  </a>
+			  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+			    <span class="glyphicon glyphicon-chevron-right"></span>
+			  </a>
+			</div>
+			</div>
+			<div class="col-md-1 col-lg-1">
+				
+			</div>
+			
+		</div>
 	</div>
 	
 	
@@ -222,45 +255,7 @@ $(function(){
 		</div>
 	</div>
 	
-<!-- Wedding Party Frame -->
-	
-	<div class="party slide">
-		<div class="content-box">
-		
-			<div class="party-title"><h1>The Wedding Party</h1></div>
-			
-			<h2>The people standing beside us!</h2>
-			
-			<div class="groomsmen">
-				<h3 class="wp-title">Groomsmen</h3>
-				
-				<div class="party-gallery">
-					<a class="wp one" rel="guys-gallery" href="images/gallery/guys1.jpg" title="BEST MAN: Josiah Brown">Photo One<span></span></a>
-					<a class="wp two" rel="guys-gallery" href="images/gallery/guys2.jpg" title="Levi Clum">Photo One<span></span></a>
-					<a class="wp three" rel="guys-gallery" href="images/gallery/guys3.jpg" title="Trevor White">Photo One<span></span></a>
-					<a class="wp four" rel="guys-gallery" href="images/gallery/guys4.jpg" title="Aaron McConkey">Photo One<span></span></a>
-					<a class="wp five" rel="guys-gallery" href="images/gallery/guys5.jpg" title="Chris Kyle">Photo One<span></span></a>
-					<a class="wp six" rel="guys-gallery" href="images/gallery/guys6.jpg" title="Chris Hanke">Photo One<span></span></a>
-					<a class="wp seven" rel="guys-gallery" href="images/gallery/guys7.jpg" title="Jake Kirkwood">Photo One<span></span></a>
-				</div>
-			</div>
-			
-			<div class="bridesmaids">
-				<h3 class="wp-title">Bridesmaids</h3>
-				
-				<div class="party-gallery">
-					<a class="wp one" rel="girls-gallery" href="images/gallery/girls1.jpg" title="MAID OF HONOR: Ashlea Holcomb">Photo One<span></span></a>
-					<a class="wp two" rel="girls-gallery" href="images/gallery/girls2.jpg" title="MATRON OF HONOR: Mali Hawkins">Photo One<span></span></a>
-					<a class="wp three" rel="girls-gallery" href="images/gallery/girls3.jpg" title="Heidi Clum">Photo One<span></span></a>
-					<a class="wp four" rel="girls-gallery" href="images/gallery/girls4.jpg" title="Amy Archibald">Photo One<span></span></a>
-					<a class="wp five" rel="girls-gallery" href="images/gallery/girls5.jpg" title="Kashley Ricedorff">Photo One<span></span></a>
-					<a class="wp six" rel="girls-gallery" href="images/gallery/girls6.jpg" title="Beth Buer">Photo One<span></span></a>
-					<a class="wp seven" rel="girls-gallery" href="images/gallery/girls7.jpg" title="Kate Spencer">Photo One<span></span></a>
-				</div>
-			</div>
-			
-		</div>
-	</div>
+
 	
 <!-- RSVP Frame -->
 	
