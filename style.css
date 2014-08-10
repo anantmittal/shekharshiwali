@@ -120,6 +120,8 @@ body {
 
 
 
+
+
 /* NAVIGATION */
 
 #header{
@@ -292,7 +294,7 @@ ul#navigation li:hover {
 
 
 .home {
-	background-color: rgb(171,221,198);
+	background-color: #00929C;
 }
 
 .home .content-box{
@@ -454,7 +456,7 @@ ul#navigation li:hover {
 
 
 .pictures {
-	background-color: rgb(252,252,252);
+	background-color: #002B54;
 }
 
 .pictures .content-box{
@@ -583,7 +585,7 @@ ul#navigation li:hover {
 
 
 .info {
-	background-color: rgb(220,79,83);
+	background-color: #985395;
 }
 
 .info .content-box{
@@ -696,7 +698,7 @@ ul#navigation li:hover {
 
 
 .party {
-	background-color: rgb(248,202,105);
+	background-color: #E43E22;
 }
 
 .party .content-box{
@@ -836,7 +838,7 @@ ul#navigation li:hover {
 
 
 .rsvp {
-	background-color: rgb(0,138,160);
+	background-color: #1A86A8;
 }
 
 .rsvp .content-box{
@@ -1009,7 +1011,7 @@ ul#navigation li:hover {
 .gifts {
 	height:100%;
 	position: relative;
-	background-color: rgb(230,230,230);
+	background-color: #E8D21C;
 }
 
 .gifts .content-box{
@@ -1054,7 +1056,7 @@ ul#navigation li:hover {
 .registry span {
 	position: absolute;
 	top: 0; left: 0; bottom: 0; right: 0;
-	background-color: rgb(230,230,230);
+	background-color: #E8D21C;
 	background: url(images/wsonoma.jpg) no-repeat;
 	background-position: -282px 0;
 	opacity: 0;
