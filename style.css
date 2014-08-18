@@ -294,12 +294,13 @@ ul#navigation li:hover {
 
 
 .home {
-	background-color: #dd3232;
+	background-color: #640404;
 }
 
 .home .content-box{
 	height:340px; 
 	margin-top:-187px;
+	text-align:center;
 }
 
 .home-img {  
@@ -316,11 +317,8 @@ ul#navigation li:hover {
 	background-color:#ffef6c;
 }
 .item{
-	border: #2e1a12 solid 20px;
-    -webkit-border-image: url(wood.png) 200 stretch;
-    -moz-border-image: url(wood.png) 200 stretch;
-    border-image: url(wood.png) 200 stretch;
-
+	border: #2e1a12 solid 5px;
+	padding:20px;
 }
 
 .pictures .content-box{
