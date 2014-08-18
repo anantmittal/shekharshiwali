@@ -266,32 +266,25 @@ $(document).ready(function() {
 	<div class="rsvp slide">
 		<div class="content-box">
 		
-			<div class="rsvp-title"><h1>RSVP: Come Join the Party!</h1></div>
+			<div class="rsvp-title">
+				<h1 style="color:#efd753;font-family: 'Oswald', sans-serif;font-size:90px;font-style:normal;">
+					RSVP
+				</h1>
+			</div>
 			
 			<h2>Tell us if you're coming!</h2>
 			
 			<form name="rsvp-now" class="rsvp-now" action="http://www.katieplusluke.com/send.php" method="post" onsubmit="window.open('','my_form_target', 'width=300,height=120', true); this.target='my_form_target';">
 				
-				<div class="labels">
-				<label for="name"><h3 class="your-name">Your Name</h3></label>
-				<label for="guests"><h3 class="guest-name">Name of Guest<span>(s)</span></h3></label>
-				<label for="attending"><h3 class="attending"># Attending</h3></label>
-				<label for="email"><h3 class="email">Email</h3></label>
-				</div>
-				
 				<div class="forms">
-				<input type="text" name="name" id="name-form" size="45" />
-				<input type="text" name="guests" id="guest-form" size="45" />
-				<input type="text" name="attending" id="attending-form" size="45" />
-				<input type="text" name="email" id="email-form" size="45" />
+				<input type="text" name="name" id="name-form" class="form-control"  placeholder="Your Name" style="height:50px;"/></br>
+				<input type="text" name="attending" id="attending-form" class="form-control" placeholder="#Guests Attending" style="height:50px;"/></br>
+				<input type="text" name="email" id="email-form" class="form-control" placeholder="Email" style="height:50px;"/></br>
+				<input type="text" name="password" class="form-control" placeholder="Password" style="height:50px;"/>
 				</div>
+
 				
 				<div class="submit-container">
-				
-				<div class="password-container">
-				<label for="password"><h3 class="password">Password</h3></label>
-				<input type="text" name="password" id="password-form" size="45" />
-				</div>
 				
 				<div class="submit">
 				<input class="submit-btn" type="submit" name='submit' value="submit" />
@@ -300,8 +293,8 @@ $(document).ready(function() {
 				</div>
 				
 			</form>
-			
-			<h3 class="questions">For Questions Email: <a href="mailto:katieplusluke@gmail.com">katieplusluke@gmail.com</a></h3>
+			</br></br></br>
+			<font style="color:#efd753;font-family: 'Oswald', sans-serif;font-size:30px;font-style:normal;">For Questions Email: <a href="mailto:info@shekharandshiwali.us">info@shekharandshiwali.us</a></h3>
 			
 		</div>
 	</div>

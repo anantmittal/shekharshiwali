@@ -838,14 +838,7 @@ ul#navigation li:hover {
 	}
 
 .rsvp-title {  
-	display:block;
-	margin: auto;
-	position: relative;
-	text-indent: -9999px;
-	width: 785px;
-	height: 75px;
-	background: url(images/title-sprites.png) 0 -225px;
-	margin-bottom:25px;
+	text-align:center;
 }
 
 .rsvp h2{
@@ -855,10 +848,10 @@ ul#navigation li:hover {
 }
 .rsvp-now{
 	display:block;
-	margin:0 auto;
 	margin-top:30px;
-	width:780px;
+	width:100%;
 	height:240px;
+	text-align:center;
 }
 .labels {
 	position:relative;
@@ -867,65 +860,32 @@ ul#navigation li:hover {
 	height:240px;
 	margin-top:0px;
 }
-.labels h3{
-	padding-bottom:6px;
-	text-align: right;
-	font-family: 'BlanchCapsRegular', arial;
-	font-size:53px;
-	font-weight:normal;
-	color:#FFFFFF;
-	margin:20px 0px 20px 0;
-}
+
 .guest-name span{
 	color:rgb(248,191,84);
 }
 .forms{
 	position:relative;
-	width:210px;
+	width:50%;
 	height:240px;
 	margin-top:0px;
 	margin-bottom:0px;
-	margin-left:15px;
-	margin-right:0px;
-	float:left;
+	
 }
-#name-form{
-	width:200px;
-	height:30px;
-	font-size:25px;
-	color:#4a4a4a;
-	margin-top:15px;
-}
-#guest-form{
-	width:200px;
-	height:30px;
-	font-size:25px;
-	color:#4a4a4a;
-	margin-top:15px;
-}
-#attending-form{
-	width:200px;
-	height:30px;
-	font-size:25px;
-	color:#4a4a4a;
-	margin-top:15px;
-}
-#email-form{
-	width:200px;
-	height:30px;
-	font-size:25px;
-	color:#4a4a4a;
-	margin-top:15px;
-}
+
+
+
+
 .submit-container {
 	position:relative;
 	width:205px;
-	height:240px;
-	margin-top:0px;
+	height:250px;
+	margin-top:-170px;
 	margin-bottom:0px;
-	margin-left:55px;
-	margin-right:0px;
-	float:left;
+	margin-left:0px;
+	margin-right:110px;
+	float:right;
+	
 }
 .password {
 	text-align: center;
