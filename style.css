@@ -245,7 +245,7 @@ ul#navigation li:hover {
 	display:block;
 	margin:0 auto;
 	margin-top:10px;
-	opacity: .2;
+	opacity: .5;
 	filter:alpha(opacity=20);
 }
 #next{
