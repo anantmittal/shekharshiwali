@@ -107,21 +107,21 @@ function postContactToGoogle() {
         var email = $('#email-form').val();
 		
         $.ajax({
+            crossDomain:true,
             url: "https://docs.google.com/forms/d/1qoutz6D32tZHw4LSKPoDDwC6BL3EHG7k5IaEYPJ0Qwc/formResponse",
             data: { "entry_381805129": name, 
             "entry_1456351605": attending, "entry_1821849834": 
             email },
             type: "POST",
             dataType: "xml",
-            /*success:function(vs){
+            success:function(vs){
 			     console.log("Success:" + vs);
 			     
 			 },
 			 error:function(){
 			 	console.log("Error");
-			 }*/
+			 }
         });
-        window.location.replace("ThankYou.html");
     }
             
 }
@@ -276,7 +276,7 @@ function postContactToGoogle() {
 	color:#4a4a4a;"/></br>
 				<input type="text" name="email" id="email-form" class="form-control" placeholder="Email" style="height:50px;font-size:25px;
 	color:#4a4a4a;"/></br>
-				<input type="text" name="password" id="password-form" class="form-control" placeholder="Password" style="height:50px;"/>
+				<input type="password" name="password" id="password-form" class="form-control" placeholder="Password" style="height:50px;"/>
 				</div>
 
 				
