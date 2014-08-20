@@ -922,6 +922,25 @@ ul#navigation li:hover {
 	width:200px;
 	
 }
+.rotate270 {
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+.scale-small{
+	 -ms-transform: scale(1,0.3); /* IE 9 */
+    -webkit-transform: scale(1,0.3; /* Chrome, Safari, Opera */
+    transform: scale(1,0.3); 
+}
 .submit-btn{
 	position:relative;
 	padding: 5px 53px 5px 53px;
