@@ -106,6 +106,45 @@ function postContactToGoogle() {
         var attending = $('#attending-form').val();
         var email = $('#email-form').val();
 		
+		if(name == "")
+		{
+			alert("Please enter your Name");
+			document.getElementById('name-form').focus();
+			return false;
+		}
+		if(name != "" && !isNaN(name))
+		{
+			alert("Name cannot have numbers");
+			document.getElementById('name-form').focus();
+			
+			return false;
+		}
+		if(attending == "")
+		{
+			alert("Please enter the number of Guests.");
+			document.getElementById('attending-form').focus();
+			return false;
+		}
+		if(attending != "" && isNaN(attending))
+		{
+			alert("Please enter a valid number in the number of Guests field.");
+			document.getElementById('attending-form').focus();
+			return false;
+		}
+		if(email == "")
+		{
+			alert("Please enter your email.");
+			document.getElementById('email-form').focus();
+			return false;
+		}
+		var atpos = email.indexOf("@");
+	    var dotpos = email.lastIndexOf(".");
+	    if (atpos<1 || dotpos<atpos+2 || dotpos+2>=email.length) {
+	        alert("Please enter valid Email address.");
+			document.getElementById('email-form').focus();
+			return false;
+	    }
+		
         $.ajax({
             crossDomain:true,
             url: "https://docs.google.com/forms/d/1qoutz6D32tZHw4LSKPoDDwC6BL3EHG7k5IaEYPJ0Qwc/formResponse",
