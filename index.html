@@ -319,16 +319,25 @@ function postContactToGoogle() {
 				<input type="text" name="name" id="name-form" class="form-control"  placeholder="Your Name" style="height:50px;font-size:25px;
 	color:#4a4a4a;"/></br>
 				<input type="text" name="attending" id="attending-form" class="form-control" placeholder="#Guests Attending" style="height:50px;font-size:25px;
-	color:#4a4a4a;"/></br>
-				<input type="text" name="email" id="email-form" class="form-control" placeholder="Email" style="height:50px;font-size:25px;
-	color:#4a4a4a;"/></br>
-				<input type="password" name="password" id="password-form" class="form-control" placeholder="Password" style="height:50px;"/>
+	color:#4a4a4a;"/>
+				<font class="rsvph2">Attending?</font></br>
+				<font class="rsvph3">Yes</font><input type="radio" name="attending-answer" value="Yes" id="attending-answer-form"  style="height:25px;width:55px;color:#4a4a4a;"/>
+				<font class="rsvph3">No</font><input type="radio" name="attending-answer" value="No" id="attending-answer-form"  style="height:25px;width:55px;color:#4a4a4a;"/></br>
+				
+				<font class="rsvph2">Need accommodation?</font></br>
+				<font class="rsvph3">Yes</font><input type="radio" name="accommodation-answer" value="Yes" id="accommodation-answer-form"  style="height:25px;width:55px;color:#4a4a4a;"/>
+				<font class="rsvph3">No</font><input type="radio" name="accommodation-answer" value="No" id="accommodation-answer-form"  style="height:25px;width:55px;color:#4a4a4a;"/></br>
+				
+				
 				</div>
 
 				
 				<div class="submit-container">
 				
 				<div class="submit">
+				
+				<input type="password" name="password" id="password-form" class="form-control" placeholder="Password" style="height:50px;"/>
+				
 				<input class="submit-btn" type="button" value="submit" onclick="postContactToGoogle()"/>
 				</div>
 				

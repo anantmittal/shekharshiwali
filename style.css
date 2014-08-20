@@ -846,6 +846,20 @@ ul#navigation li:hover {
 	color:#FFFFFF;
 	text-shadow: rgb(0,138,160) 0 0 0;
 }
+.rsvph2{
+	
+	color:#efd753;
+	text-shadow: rgb(0,138,160) 0 0 0;
+	font-size:30px;
+	padding-bottom:10px;
+}
+.rsvph3{
+	
+	color:#FFFFFF;
+	text-shadow: rgb(0,138,160) 0 0 0;
+	font-size:20px;
+	padding-bottom:10px;
+}
 .rsvp-now{
 	display:block;
 	margin-top:30px;
