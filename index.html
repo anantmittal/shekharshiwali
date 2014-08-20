@@ -109,8 +109,12 @@ $(function() {
         return false;
     });
     
-    
-    
+    $(".rsvp").mouseover(function(){
+    	 $("#bottom-nav").hide();
+    });
+    $(".rsvp").mouseout(function(){
+    	 $("#bottom-nav").show();
+    });
 
 });
 
