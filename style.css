@@ -248,7 +248,7 @@ ul#navigation li:hover {
 	opacity: .5;
 	filter:alpha(opacity=20);
 }
-#next{
+#next1{
 	z-index:100;
 	position:fixed;
 	bottom:0px;
@@ -264,11 +264,11 @@ ul#navigation li:hover {
 	-o-transition:      opacity 0.5s;
 	-ms-transition:     opacity 0.5s;
 }
-#next:hover {
+#next1:hover {
 	opacity: 1;
 	filter:alpha(opacity=100);
 }
-#next img{
+#next1 img{
 	display:block;
 	position:relative;
 	margin-left:auto;
@@ -279,7 +279,7 @@ ul#navigation li:hover {
 	opacity: 1;
 	filter:alpha(opacity=100);
 }
-#next .box{
+#next1 .box{
 	position:absolute;
 	width:100%;
 	height:170px;
@@ -896,7 +896,6 @@ ul#navigation li:hover {
 }
 #password-form{
 	display:block;
-	width:200px;
 	height:30px;
 	font-size:25px;
 	color:#4a4a4a;
