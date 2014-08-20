@@ -313,28 +313,18 @@ ul#navigation li:hover {
 	background: url(images/kl-title.png) no-repeat;
 }
 
-.pictures{
-	background-color:#ffef6c;
-}
-.item{
-	border: #2e1a12 solid 3px;
-	padding:20px;
+
+.pictures {
+	background-color: #ffef6c;
 }
 
 .pictures .content-box{
 	height:290px; 
-	margin-top:-230px;
+	margin-top:-180px;
 	}
 
 .pictures-title {  
-	display:block;
-	margin: auto;
-	position: relative;
-	text-indent: -9999px;
-	width: 320px;
-	height: 75px;
-	background: url(images/pictures.png) 0 0;
-	margin-bottom:25px;
+	text-align:center;
 }
 .gallery-title{
 	font-size:35px;
@@ -412,33 +402,8 @@ ul#navigation li:hover {
 .gallery .nine span {
 	background: url(images/pthumb-sprite.jpg) -459px 0;
 }
-.gallery .ten span {
-	background: url(images/pthumb-sprite.jpg) -510px 0;
-}
-.gallery .eleven span {
-	background: url(images/pthumb-sprite.jpg) -561px 0;
-}
-.gallery .twelve span {
-	background: url(images/pthumb-sprite.jpg) -612px 0;
-}
-.gallery .thirteen span {
-	background: url(images/pthumb-sprite.jpg) -663px 0;
-}
-.gallery .fourteen span {
-	background: url(images/pthumb-sprite.jpg) -714px 0;
-}
-.gallery .fifteen span {
-	background: url(images/pthumb-sprite.jpg) -765px 0;
-}
-.gallery .sixteen span {
-	background: url(images/pthumb-sprite.jpg) -816px 0;
-}
-.gallery .seventeen span {
-	background: url(images/pthumb-sprite.jpg) -867px 0;
-}
-.gallery .eighteen span {
-	background: url(images/pthumb-sprite.jpg) -918px 0;
-}
+
+
 /* OUR STORY */
 
 

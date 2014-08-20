@@ -52,6 +52,27 @@ function scrollNav(id){
 
 $(function() {
 
+	$("a[rel=story-gallery]").fancybox({
+		'titlePosition' 	: 'inside',
+		'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+			return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+			}
+		});
+		
+		$("a[rel=guys-gallery]").fancybox({
+		'titlePosition' 	: 'inside',
+		'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+			return '<span id="fancybox-title-over">' + (title.length ? '' + title : '') + '</span>';
+			}
+		});
+		
+		$("a[rel=girls-gallery]").fancybox({
+		'titlePosition' 	: 'inside',
+		'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+			return '<span id="fancybox-title-over">' + (title.length ? '' + title : '') + '</span>';
+			}
+		});
+
 	$("#getmore-info").fancybox({
 				'titlePosition'		: 'inside',
 				'transitionIn'		: 'none',
@@ -189,6 +210,8 @@ function postContactToGoogle() {
             
 }
 
+
+
 </script>
 </head>
 
@@ -226,56 +249,29 @@ function postContactToGoogle() {
 
 <!-- Pictures Frame -->
 
-	<div class="pictures slide"  >
+	<div class="pictures slide">
 		<div class="content-box">
-			<div class="col-md-12 col-lg-12">
-				<div class="col-md-1 col-lg-1">
-					
-				</div>
-				<div class="col-md-10 col-lg-10">
-					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="margin-bottom:50px;" data-interval="false">
-						<!-- Wrapper for slides -->
-					  	<div class="carousel-inner">
-							<div class="item active">
-						      <img src="images/1.jpg" style="width:100%;">
-						    </div>
-						    <div class="item">
-						      <img src="images/2.JPG" style="width:100%;">
-						    </div>
-						    <div class="item">
-						      <img src="images/3.JPG" style="width:100%;">
-						    </div>
-						    <div class="item">
-						      <img src="images/4.JPG" style="width:100%;">
-						    </div>
-						    <div class="item">
-						      <img src="images/5.JPG" style="width:100%;" class="rotate90">
-						    </div>
-						    <div class="item">
-						      <img src="images/6.JPG" style="width:100%;">
-						    </div>
-						    <div class="item">
-						      <img src="images/7.JPG" style="width:100%;" class="rotate90 scale-small">
-						    </div>
-						    <div class="item">
-						      <img src="images/8.jpg" style="width:100%;">
-						    </div>
-						    <div class="item">
-						      <img src="images/9.jpg" style="width:100%;" class="rotate270">
-						    </div>
-					 	</div>
-		
-						<!-- Controls -->
-						<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-							<span class="glyphicon glyphicon-chevron-left"></span>
-						</a>
-						<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-						    <span class="glyphicon glyphicon-chevron-right"></span>
-						</a>
-					</div>
-				</div>
-				
+			
+			<div class="pictures-title">
+				<h1 style="color:#640404;font-family: 'Oswald', sans-serif;font-size:90px;font-style:normal;">
+					Pictures
+				</h1>
 			</div>
+			
+			<h2 class="gallery-title">Click on the boxes</h2>
+			
+			<div class="gallery">
+				<a class="photo one" rel="story-gallery" href="images/1.jpg" title="">Photo<span></span></a>
+				<a class="photo two" rel="story-gallery" href="images/2.JPG" title="">Photo<span></span></a>
+				<a class="photo three" rel="story-gallery" href="images/3.JPG" title="">Photo<span></span></a>
+				<a class="photo four" rel="story-gallery" href="images/4.JPG" title="">Photo<span></span></a>
+				<a class="photo five" rel="story-gallery" href="images/5.jpg" title="">Photo<span></span></a>
+				<a class="photo six" rel="story-gallery" href="images/6.JPG" title="">Photo<span></span></a>
+				<a class="photo seven" rel="story-gallery" href="images/7.jpg" title="">Photo<span></span></a>
+				<a class="photo eight" rel="story-gallery" href="images/8.jpg" title="">Photo<span></span></a>
+				<a class="photo nine" rel="story-gallery" href="images/9.jpg" title="">Photo<span></span></a>
+			</div>
+		
 		</div>
 	</div>
 	
