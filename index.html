@@ -116,10 +116,11 @@ function postContactToGoogle() {
             dataType: "xml",
             success:function(vs){
 			     console.log("Success:" + vs);
-			     
+			     window.location.replace("ThankYou.html");
 			 },
 			 error:function(){
 			 	console.log("Error");
+			 	window.location.replace("ThankYou.html");
 			 }
         });
     }
