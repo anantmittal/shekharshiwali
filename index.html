@@ -120,16 +120,9 @@ function postContactToGoogle() {
 			 error:function(){
 			 	console.log("Error");
 			 }*/
-            
-            statusCode: {
-                0: function () {
-                    window.location.replace("ThankYou.html");
-                },
-                200: function () {
-                    window.location.replace("ThankYou.html");
-                }
-            }
         });
+        alert("Thank you for the submission :). See you soon.");
+        window.location.replace("ThankYou.html");
     }
             
 }
