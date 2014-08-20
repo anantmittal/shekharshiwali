@@ -113,14 +113,14 @@ function postContactToGoogle() {
             email },
             type: "POST",
             dataType: "xml",
-            success:function(vs){
+            /*success:function(vs){
 			     console.log("Success:" + vs);
 			     
 			 },
 			 error:function(){
 			 	console.log("Error");
-			 }
-            /*
+			 }*/
+            
             statusCode: {
                 0: function () {
                     window.location.replace("ThankYou.html");
@@ -128,7 +128,7 @@ function postContactToGoogle() {
                 200: function () {
                     window.location.replace("ThankYou.html");
                 }
-            }*/
+            }
         });
     }
             
