@@ -409,7 +409,7 @@ ul#navigation li:hover {
 
 
 .story {
-	background-color: rgb(230,230,230);
+	background-color: #075907;
 }
 
 .story .content-box{
@@ -857,7 +857,7 @@ ul#navigation li:hover {
 
 .submit-container {
 	position:relative;
-	width:205px;
+	width:255px;
 	height:250px;
 	margin-top:-170px;
 	margin-bottom:0px;

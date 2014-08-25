@@ -121,12 +121,12 @@ $(function() {
 function postContactToGoogle() {
 	
 	
-	var password = $('#password-form').val();
+	/*var password = $('#password-form').val();
     if(password!='shekhar'){
     	alert("Incorrect Password");
     	return false;
-    }
-    else{
+    }*/
+   // else{
     	var name = $('#name-form').val();
         var attending = $('#attending-form').val();
         
@@ -204,7 +204,7 @@ function postContactToGoogle() {
 			 	window.location.replace("ThankYou.html");
 			 }
         });
-    }
+   // }
             
 }
 
@@ -364,9 +364,7 @@ function postContactToGoogle() {
 				
 				<div class="submit">
 				
-				<input type="password" name="password" id="password-form" class="form-control" placeholder="Password" style="height:50px;"/>
-				
-				<input class="submit-btn" type="button" value="Submit" onclick="postContactToGoogle()"/>
+				<input class="submit-btn btn btn-lg btn-warning btn-block" type="submit" value="Submit" onclick="postContactToGoogle()"/>
 				</div>
 				
 				</div>
