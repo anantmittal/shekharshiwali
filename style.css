@@ -845,11 +845,20 @@ ul#navigation li:hover {
 }
 .forms{
 	position:relative;
-	width:50%;
+	width:45%;
 	height:240px;
 	margin-top:0px;
-	margin-bottom:0px;
+	margin-bottom:0px;float:left;
+	text-align:left;
 	
+}
+.forms2{
+	position:relative;
+	width:45%;
+	height:240px;
+	margin-top:0px;
+	margin-bottom:0px;float:right;
+	text-align:left;
 }
 
 
@@ -882,9 +891,11 @@ ul#navigation li:hover {
 
 }
 .submit{
-	margin:0;
-	padding:0;
-	width:200px;
+	margin:auto;
+	padding:auto;
+	width:50%;
+	clear:both;
+	
 	
 }
 .rotate270 {
@@ -909,7 +920,7 @@ ul#navigation li:hover {
 .submit-btn{
 	position:relative;
 	padding: 5px 53px 5px 53px;
-	margin-top:20px;
+	margin-top:0px;
 	margin-left:0;
 	margin-right:0;
 	margin-bottom:0;
