@@ -974,19 +974,12 @@ ul#navigation li:hover {
 }
 
 .gifts .content-box{
-	height:420px; 
-	margin-top:-250px;
+	height:475px; 
+	margin-top:-270px;
 	}
 
 .gifts-title {  
-	display:block;
-	margin: auto;
-	position: relative;
-	text-indent: -9999px;
-	width: 785px;
-	height: 83px;
-	background: url(images/title-sprites.png) 0 -300px;
-	margin-bottom:25px;
+	
 }
 
 .gifts h2{
